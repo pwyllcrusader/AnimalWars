@@ -1,4 +1,4 @@
-package by.wars.animals;
+package com.wars.entities;
 
 public abstract class Animal {
 
@@ -29,11 +29,4 @@ public abstract class Animal {
 	public void setStamina(int stamina) {
 		this.stamina = stamina;
 	}
-	
-	public void hit(Animal animal) {
-		animal.setStamina(animal.getStamina() - this.getStrength());
-		System.out.println(this.getName() + " ударил с силой " + this.getStrength() + ", у " + 
-							animal.getName() + " осталось " + animal.getStamina() + " жизней" );
-	}
-
 }

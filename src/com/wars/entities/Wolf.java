@@ -1,4 +1,4 @@
-package by.wars.animals;
+package com.wars.entities;
 
 public class Wolf extends Animal{
 	
