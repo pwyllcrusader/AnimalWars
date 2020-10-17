@@ -1,0 +1,3 @@
+com\wars\api\dao\IAnimalDao.class
+com\wars\api\service\IAnimalService.class
+com\wars\api\service\IWarService.class
