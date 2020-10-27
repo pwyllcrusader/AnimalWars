@@ -9,6 +9,12 @@
 	</parent>
 	<artifactId>dao-module</artifactId>
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.22</version>
+		</dependency>
 		<dependency>
 			<groupId>com.wars</groupId>
 			<artifactId>api-module</artifactId>
